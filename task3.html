@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+function convertTemp(temp, scale){
+    if(scale== 'c'){
+        return (temp - 32)*5/9;
+        
+    }
+    else if(scale== 'f'){
+        return (temp * 9/5) + 32;
+    }
+}
+console.log(convertTemp(132, "c"));
+console.log(convertTemp(100,"c"));
+console.log(convertTemp(32,"f"));
+console.log(convertTemp(72,"f"));
+
+
+    </script>
+
+</body>
+</html>
